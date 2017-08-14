@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="javaee-api-7.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/javaee-api-7.0.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.40-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.40-bin.jar!/"/>
+	</lib>
+	<lib name="sb-toolbox-1.1.6.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/libs/sb-toolbox-1.1.6.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/libs/sb-toolbox-1.1.6.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/sb-toolbox-1.1.6.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Maven: junit:junit:4.12" value="project"/>
+		<level name="Maven: org.hamcrest:hamcrest-core:1.3" value="project"/>
+		<level name="Maven: com.aparapi:aparapi:1.4.0" value="project"/>
+		<level name="Maven: com.aparapi:aparapi-jni:1.1.2" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC2" value="project"/>
+		<level name="Maven: org.opentest4j:opentest4j:1.0.0-RC1" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC2" value="project"/>
+	</levels>
+</component>
